@@ -15,7 +15,7 @@
   export default{
     methods:{
       redirect(){
-        this.$router.push({name:'about'})
+        this.$router.push({name:'home'})
       },
       back(){
         this.$router.go(-1)
